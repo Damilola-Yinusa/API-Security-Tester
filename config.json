@@ -1,0 +1,15 @@
+{
+    "base_url": "https://jsonplaceholder.typicode.com",
+    "headers": {
+      "Authorization": "Bearer YOUR_ACCESS_TOKEN"
+    },
+    "endpoints": [
+      {
+        "path": "/posts",
+        "methods": ["GET", "POST", "PUT", "DELETE"],
+        "payload": {"title": "foo", "body": "bar", "userId": 1},
+        "vulnerability_tests": ["sql_injection", "xss", "idor", "rate_limiting"]
+      }
+    ]
+  }
+  
