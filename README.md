@@ -37,7 +37,7 @@ This project provides a framework to test APIs for various security vulnerabilit
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/api-security-tester.git
+git clone https://github.com/Damilola-Yinusa/api-security-tester.git
 cd api-security-tester
 ```
 
